@@ -4,8 +4,8 @@
 
 const words = [
     "Full Stack Developer",
-    "PHP Developer",
-    "Mathematics Educator",
+    "Data Analyst",
+    "Mathematician",
     "Tech Enthusiast"
 ];
 

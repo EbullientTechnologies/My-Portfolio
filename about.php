@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="about-page">
+
+    <div class="container">
+
+        <h1>About Me</h1>
+
+        <img src="assets/profile.jpg" alt="Profile Image" class="profile-image">
+
+        <p>
+            My name is Nduka Ebube Junior, a graduate of Mathematics from
+            Nnamdi Azikiwe University, Awka.
+        </p>
+
+        <p>
+            I am a passionate web developer, educator, and technology enthusiast
+            with experience in PHP, JavaScript, HTML, CSS, MySQL, and software development.
+        </p>
+
+        <p>
+            I build responsive websites, school management systems,
+            business applications, and professional digital solutions.
+        </p>
+
+        <a href="index.php" class="btn">Back Home</a>
+
+    </div>
+
+</section>
+
+</body>
+</html>

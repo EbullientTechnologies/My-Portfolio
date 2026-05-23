@@ -23,6 +23,7 @@ body{
 header{
     position:fixed;
     top:0;
+    left:0;
     width:100%;
     background:#111827;
     padding:15px 8%;
@@ -33,30 +34,27 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
-}
-
-/* LOGO IMAGE STYLE */
-.logo img{
-    width:60px;
-    height:60px;
-    object-fit:contain;
-    border-radius:10px;
+    flex-wrap:wrap; /* IMPORTANT FIX */
 }
 
 /* NAV LINKS */
 .nav-links{
     display:flex;
     list-style:none;
+    gap:25px; /* better than margin-left */
+    flex-wrap:wrap; /* prevents cut-off */
+    justify-content:flex-end;
+    max-width:100%;
 }
 
 .nav-links li{
-    margin-left:25px;
+    white-space:nowrap; /* prevents text breaking */
 }
 
 .nav-links a{
-    color:#fff;
+    color:white;
     text-decoration:none;
-    transition:0.3s;
+    font-weight:500;
 }
 
 .nav-links a:hover{

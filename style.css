@@ -40,6 +40,104 @@ nav{
     align-items:center;
 }
 
+/* =========================
+   EBULLIENT TECHNOLOGIES
+   FUTURISTIC LOGO STYLE
+========================= */
+
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#050816;
+    font-family:'Poppins', sans-serif;
+}
+
+/* Logo Container */
+.logo-box{
+    text-align:center;
+    position:relative;
+}
+
+/* Main Logo Image */
+.logo-box img{
+    width:260px;
+    filter:
+        drop-shadow(0 0 10px #00d9ff)
+        drop-shadow(0 0 25px #4d5bff)
+        drop-shadow(0 0 45px #8a2be2);
+    
+    animation:floatLogo 4s ease-in-out infinite;
+    transition:0.5s ease;
+}
+
+/* Hover Effect */
+.logo-box img:hover{
+    transform:scale(1.08) rotate(-2deg);
+    filter:
+        drop-shadow(0 0 20px #00e5ff)
+        drop-shadow(0 0 40px #5b5bff)
+        drop-shadow(0 0 60px #a020f0);
+}
+
+/* Company Name */
+.logo-title{
+    margin-top:20px;
+    font-size:42px;
+    font-weight:700;
+    letter-spacing:6px;
+    text-transform:uppercase;
+
+    background:linear-gradient(
+        90deg,
+        #00e5ff,
+        #6a5cff,
+        #a020f0,
+        #00e5ff
+    );
+
+    background-size:300%;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    animation:glowText 6s linear infinite;
+}
+
+/* Subtitle */
+.logo-subtitle{
+    color:#b8c2ff;
+    font-size:14px;
+    letter-spacing:8px;
+    margin-top:8px;
+    opacity:0.8;
+}
+
+/* Floating Animation */
+@keyframes floatLogo{
+    0%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform:translateY(-12px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}
+
+/* Animated Gradient */
+@keyframes glowText{
+    0%{
+        background-position:0%;
+    }
+    100%{
+        background-position:300%;
+    }
+}
+
 .logo{
     font-size:2rem;
     font-weight:700;

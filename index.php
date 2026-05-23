@@ -31,7 +31,7 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Hello, I'm <span>Nduka Ebube Junior</span></h1>
-            <p>Web Developer | Educator | Tech Enthusiast</p>
+            <p>Web Developer | Data Analyst (Data visualization) | Educator | Tech Enthusiast</p>
 
             <a href="#projects" class="btn">View Projects</a>
         </div>
@@ -63,6 +63,10 @@
             <div class="skill-card">JavaScript</div>
             <div class="skill-card">PHP</div>
             <div class="skill-card">MySQL</div>
+            <div class="skill-card">WordPress</div>
+            <div class="skill-card">Ms Excel</div>
+            <div class="skill-card">Power BI</div>
+            <div class="skill-card">Python</div>
             <div class="skill-card">Git & GitHub</div>
         </div>
     </section>
